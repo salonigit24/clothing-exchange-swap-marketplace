@@ -1,0 +1,22 @@
+{
+  "name": "clothing-exchange-swap-marketplace",
+  "version": "1.0.0",
+  "description": "ClothSwap - Sustainable Fashion & Clothing Exchange Marketplace",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "start": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "clothing-exchange",
+    "swap-marketplace",
+    "sustainable-fashion",
+    "barter",
+    "mern"
+  ],
+  "author": "SwapWear Team",
+  "license": "MIT"
+}
